@@ -94,3 +94,34 @@
   font: 400 1.6rem 'Inter', sans-serif;
   color: #2B283A;
 }
+
+@media only screen and (max-width: 992px) {
+  .card-content {
+    padding-left: 30px;
+  }
+
+  .card-l--country {
+    font-size: 1.4rem;
+  }
+
+  .card-l--link {
+    font-size: 1.3rem;
+  }
+
+  .card-l--icon {
+    width: 1rem;
+  }
+
+  .card-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .card-date {
+    font-size: 1.4rem;
+  }
+
+  .card-description {
+    font-size: 1.4rem;
+  }
+}
