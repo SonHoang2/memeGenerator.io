@@ -47,6 +47,10 @@
 .form--input {
     font-size: 2rem;
     padding: 10px;
+<<<<<<< HEAD
+=======
+    border: 1px solid #D5D4D8;
+>>>>>>> a568fed (done)
 }
 
 .form--input,
@@ -54,6 +58,7 @@
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .form--button {
     display: block;
     grid-column: 1 / -1;
@@ -70,6 +75,34 @@
     position: absolute;
     color: #fff;
     font: 700 3rem 'Oswald', sans-serif;
+=======
+.form--input:focus,
+.form--button:focus {
+    outline: none;
+}
+
+.form--button {
+    display: block;
+    grid-column: 1 / -1;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #711F8D, #A818DA);
+    color: #fff;
+    border: none;
+}
+
+.form--button:hover {
+    cursor: pointer;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    color: #fff;
+    font: 700 4rem 'Oswald', sans-serif;
+>>>>>>> a568fed (done)
     text-shadow:         
         2px 2px 0 #000,
         -2px -2px 0 #000,
@@ -80,18 +113,29 @@
         0 -2px 0 #000,
         -2px 0 0 #000,
         2px 2px 5px #000;
+<<<<<<< HEAD
     text-align: center;
     width: 100%;
+=======
+    left: 50%;
+    transform: translate(-50%, 0);
+>>>>>>> a568fed (done)
 }
 
 .meme--text.top {
     top: 20px;
+<<<<<<< HEAD
     left: 0;
+=======
+>>>>>>> a568fed (done)
 }
 
 .meme--text.bottom {
     bottom: 20px;
+<<<<<<< HEAD
     left: 0;
+=======
+>>>>>>> a568fed (done)
 }
 
 .meme--img {

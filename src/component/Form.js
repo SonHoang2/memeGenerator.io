@@ -6,7 +6,11 @@ export default function Form() {
     const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
+<<<<<<< HEAD
         randomImage: "https://i.imgflip.com/1ur9b0.jpg"
+=======
+        randomImage: ""
+>>>>>>> a568fed (done)
     })
 
     useEffect(() => {
@@ -25,7 +29,14 @@ export default function Form() {
 
     function randomMeme() {
         const randomNumber = Math.floor(Math.random() * 100);
+<<<<<<< HEAD
         return allMemes[randomNumber].url
+=======
+        setMeme(prev => ({
+            ...prev,
+            randomImage: allMemes[randomNumber].url
+        }))
+>>>>>>> a568fed (done)
     }
 
     return (
@@ -53,9 +64,15 @@ export default function Form() {
                 />
             </div>
             <div className="meme">
+<<<<<<< HEAD
                 <h1 className="meme--text top">{meme.topText} hello</h1>
                 <img className="meme--img" src={meme.randomImage}  />
                 <h1 className="meme--text bottom">{meme.bottomText} hello</h1>
+=======
+                <h1 className="meme--text top">{meme.topText}</h1>
+                {meme.randomImage && <img className="meme--img" src={meme.randomImage}/>}
+                <h1 className="meme--text bottom">{meme.bottomText}</h1>
+>>>>>>> a568fed (done)
             </div>
         </div>
     )
